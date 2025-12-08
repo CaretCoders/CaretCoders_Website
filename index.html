@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caret Coders | Innovative Software Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+            <p>Writing semicolons where they don’t belong...</p>
+        </div>
+    </div>
+
+    <!-- Theme Toggle Switch -->
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="theme-checkbox">
+            <input type="checkbox" id="theme-checkbox" />
+            <div class="slider round">
+                <span class="sun-icon">☀️</span>
+                <span class="moon-icon">🌙</span>
+            </div>
+        </label>
+    </div>
+
+    <!-- Side Navigation Hotspot -->
+    <div id="side-nav-hotspot">
+        <!-- Side Navigation -->
+        <nav class="side-nav">
+            <div class="side-nav-logo">
+                <a href="#hero" aria-label="Caret Coders Home">
+                    <img src="favicon.ico" alt="Caret Coders Hub Logo">
+                </a>
+            </div>
+            <div class="side-nav-dots">
+                <a href="#hero" class="side-nav-button active" aria-label="Scroll to Home"></a>
+                <a href="#about" class="side-nav-button" aria-label="Scroll to About"></a>
+                <a href="#projects" class="side-nav-button" aria-label="Scroll to Projects"></a>
+                <a href="#team" class="side-nav-button" aria-label="Scroll to Team"></a>
+                <a href="#contact" class="side-nav-button" aria-label="Scroll to Contact"></a>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="custom-cursor">&lt;/&gt;</div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <!-- Parallax Items -->
+            <div class="hero-parallax-item" data-speed-x="0.1" data-speed-y="0.25" style="top: 15%; left: 10%;"><span>{...}</span></div>
+            <div class="hero-parallax-item" data-speed-x="-0.08" data-speed-y="-0.15" style="top: 65%; left: 80%;"><span>&lt;C/&gt;</span></div>
+            <div class="hero-parallax-item" data-speed-x="-0.05" data-speed-y="0.18" style="top: 20%; left: 75%;"><span>[ ]</span></div>
+            <div class="hero-parallax-item" data-speed-x="0.07" data-speed-y="-0.1" style="top: 70%; left: 20%;"><span>&lt;/&gt;</span></div>
+
+            <div class="hero-content-wrapper">
+                <div class="hero-top-row">
+                    <div class="hero-main-text">
+                        <h1>
+                            <span class="hero-title-line-1">You’ve Landed at</span>
+                            <span class="hero-title-line-2">Caret Coders</span>
+                        </h1>
+                        <p>We turn caffeine and code into digital magic.</p>
+                    </div>
+                    <a href="#contact" class="hero-cta-button say-hey-button">
+                        Say Hey
+                        <span class="icon-wrapper">
+                            <i data-lucide="arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="hero-bottom-row">
+                    <a href="#projects" class="hero-cta-button peek-button">
+                        <span class="icon-wrapper">
+                            <i data-lucide="chevrons-down"></i>
+                        </span>
+                        Peek Behind the Curtain
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section animate-on-scroll">
+            <div class="about-background"></div>
+            <div class="container about-content">
+                <div class="about-text-left">
+                    <h2>Who Are We, and Why Are We Like This?</h2>
+                </div>
+                <div class="about-text-right">
+                    <p>
+                        We don’t just code — we question, fix, rebuild, refactor, test, test again (and occasionally cry in JSON). Our team might be small, but our ambition is scalable.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+             <div class="projects-slider-wrapper">
+                <div class="projects-slider">
+                    <!-- Slide 1: Intro -->
+                    <div class="project-slide intro-slide">
+                         <div class="intro-content">
+                            <div class="intro-text">
+                                <p class="large-text">Sometimes we build tools. Sometimes we accidentally create intelligent to-do lists that guilt-trip us more than our moms.</p>
+                                <p class="small-text">Every page = a unique client journey. Click "Full case study" to deep dive.</p>
+                            </div>
+                            <div class="intro-heading">
+                                <h2>Experiments We’re Proud of (and Slightly Afraid Of)</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2: DETAILMINT -->
+                    <div class="project-slide">
+                        <div class="project-capsule">
+                            <div class="capsule-image-container">
+                                <img src="/app-preview.png" alt="DETAILMINT App Preview">
+                            </div>
+                            <div class="capsule-text-container">
+                                <h2>DETAILMINT</h2>
+                                <p>An all-in-one management platform for businesses operating across multiple locations, especially in the car detailing industry.</p>
+                                <div class="tags">
+                                    <span>React</span><span>Node.js</span><span>Javascript</span><span>Tailwind CSS</span>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="project-button">View Full Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Slide 3: Coming Soon -->
+                    <div class="project-slide coming-soon-slide">
+                        <div class="intro-content">
+                            <div class="intro-text">
+                                <p class="large-text">These projects are growing faster than our caffeine tolerance. Check back soon, or just call us and ask, "Bro, is it live yet?"</p>
+                                <p class="small-text">Innovation loading...</p>
+                            </div>
+                            <div class="intro-heading">
+                                <h2>More Awesome Projects Coming Soon</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-navigation">
+                <button id="prev-project" disabled>&larr;</button>
+                <button id="next-project">&rarr;</button>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team-section animate-on-scroll">
+            <div class="container">
+                <div class="section-header">
+                    <h1>The Minds Making It Happen</h1>
+                    <p>The brains behind Caret Coders — where passion powers innovation.</p>
+                </div>
+                <div class="team-grid">
+                    <div class="team-member-card">
+                        <img src="/Founder.png" alt="Rahil Shrivas">
+                        <div class="member-info">
+                            <h3>Rahil Shrivas</h3>
+                            <p>Founder & Product Manager</p>
+                        </div>
+                    </div>
+                    <div class="team-member-card">
+                        <img src="/CoFounder.png" alt="Asfiya Khan">
+                         <div class="member-info">
+                            <h3>Asfiya Khan</h3>
+                            <p>Co-Founder & Chief Operating Officer</p>
+                        </div>
+                    </div>
+                    <div class="team-member-card">
+                        <img src="/Operation_manager.png" alt="Yagyesh Sahu">
+                         <div class="member-info">
+                            <h3>Yagyesh Sahu</h3>
+                            <p>Chief Financial Officer</p>
+                        </div>
+                    </div>
+                    <div class="team-member-card">
+                        <img src="/Social_manger.png" alt="Yasasvee Sisodia">
+                         <div class="member-info">
+                            <h3>Yasasvee Sisodia</h3>
+                            <p>Social Media Manager & Content Writer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section animate-on-scroll">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Let's Build Something Awesome</h2>
+                    <p>Innovation is messy. So we break stuff, fix it better, then accidentally break something else in the process. It’s called agile. Or maybe just Tuesday.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <h3>Ping Us!</h3>
+                        <p>Reach out to us through any of the channels below.</p>
+                        <ul>
+                            <li>
+                                <i data-lucide="mail" class="contact-icon"></i>
+                                <span><strong>Email:</strong> <a href="mailto:caretcoders@gmail.com">caretcoders@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <i data-lucide="phone" class="contact-icon"></i>
+                                <span><strong>Phone:</strong> <a href="tel:+919179795954">+91 9179795954</a></span>
+                            </li>
+                            <li>
+                                <i data-lucide="linkedin" class="contact-icon"></i>
+                                <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/caretcoders-llp/" target="_blank">Follow Caret Coders</a></span>
+                            </li>
+                            <li>
+                                <i data-lucide="github" class="contact-icon"></i>
+                                <span><strong>GitHub:</strong> <a href="https://github.com/CaretCoders" target="_blank">Explore Our Code</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-form-container">
+                        <h3>Send Us a Message</h3>
+                        <p>Join Caret Coders — we write code and occasionally sleep.</p>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Who dis?</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Enter your email</label>
+                                <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Say something cool!</label>
+                                <textarea id="message" name="message" placeholder="Send us your best joke or serious business." required></textarea>
+                            </div>
+                            <button type="submit">
+                                Send Message
+                                <i data-lucide="send" class="send-icon"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Caret Coders. All rights reserved.</p>
+            <p>Crafting the Future of Software, One Line at a Time.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
+    
